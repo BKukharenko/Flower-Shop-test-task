@@ -1,0 +1,361 @@
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .description-site-slider {
+    .description-slide {
+
+      .service-heading {
+        font-size: 1.25rem;
+      }
+
+      .service-description {
+        font-size: 3rem;
+      }
+    }
+  }
+
+  .happy-birthday-section {
+    .section-txt-wrapper {
+      width: 70%;
+    }
+  }
+
+  .create-bouquet-section {
+    .create-bouquet-section-btn {
+      font-size: 1.5rem;
+    }
+  }
+
+  .how-we-work-section {
+
+    .how-we-work-steps {
+
+      .step-content {
+        width: 80%;
+      }
+    }
+  }
+
+  .how-to-pay-section {
+    .pay-services {
+      .pay-service {
+        margin-right: 45px;
+      }
+    }
+  }
+
+  .reviews-section {
+
+    .review-text {
+      width: 50%;
+    }
+
+    .slick-prev {
+      left: 9.5%;
+    }
+
+    .slick-next {
+      right: 13%;
+    }
+  }
+
+  .contacts-section {
+    .numbers-list, .accounts-list {
+      font-size: 1.875rem;
+    }
+  }
+
+  .footer-heading {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    .nav {
+      flex-direction: row;
+      justify-content: space-around;
+      background-color: transparent;
+    }
+
+    .menu-item {
+      &:last-child {
+        a {
+          padding-right: 0;
+        }
+      }
+    }
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .description-site-slider {
+    .description-slide {
+
+      .service-heading {
+        font-size: 1.25rem;
+      }
+
+      .service-description {
+        font-size: 3rem;
+      }
+    }
+
+
+      .slick-arrow {
+
+        &:before {
+          font-size: 4rem;
+        }
+      }
+
+      .slick-prev {
+        left: 15px;
+
+      }
+
+      .slick-next {
+        right: 40px;
+      }
+    }
+  .happy-birthday-section {
+    .section-txt-wrapper {
+      width: 60%;
+    }
+  }
+
+  .bouquets-section {
+    .bouquets-list {
+      .bouquet-title {
+        font-size: 1.2rem;
+      }
+    }
+  }
+
+  .create-bouquet-section {
+    .create-bouquet-section-btn {
+      font-size: 1.5rem;
+    }
+  }
+
+  .how-we-work-section {
+
+    .how-we-work-steps {
+
+      .step-content {
+        width: 80%;
+      }
+    }
+  }
+
+  .reviews-section {
+
+    .review-text {
+      width: 50%;
+    }
+
+    .slick-prev {
+      left: 9.5%;
+    }
+
+    .slick-next {
+      right: 13%;
+    }
+  }
+
+  .contacts-section {
+    .numbers-list, .accounts-list {
+      font-size: 1.675rem;
+    }
+  }
+
+  .footer-heading {
+    font-size: 3rem;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+  .description-site-slider {
+    .description-slide {
+
+      .service-heading {
+        font-size: 1.25rem;
+      }
+
+      .service-description {
+        font-size: 3rem;
+      }
+    }
+
+
+    .slick-arrow {
+
+      &:before {
+        font-size: 4rem;
+      }
+    }
+
+    .slick-prev {
+      left: 15px;
+
+    }
+
+    .slick-next {
+      right: 40px;
+    }
+  }
+
+  .happy-birthday-section {
+    .section-txt-wrapper {
+      width: 45%;
+    }
+  }
+
+  .bouquets-section {
+    .bouquets-list {
+      .bouquet-title {
+        font-size: 1rem;
+
+      }
+    }
+  }
+
+  .create-bouquet-section {
+    .create-bouquet-section-btn {
+      font-size: 1.5rem;
+    }
+  }
+
+  .how-we-work-section {
+
+    .how-we-work-steps {
+
+      .step-content {
+        width: 70%;
+      }
+    }
+  }
+
+  .reviews-section {
+
+    .review-text {
+      width: 40%;
+    }
+
+    .slick-prev {
+      left: 9.5%;
+    }
+
+    .slick-next {
+      right: 11%;
+    }
+  }
+
+  .contacts-section {
+    .numbers-list, .accounts-list {
+      font-size: 1.875rem;
+    }
+  }
+
+  .footer-heading {
+    font-size: 3.5rem;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .description-site-slider {
+    .description-slide {
+
+      .service-heading {
+        font-size: 1.25rem;
+      }
+
+      .service-description {
+        font-size: 3.5rem;
+      }
+    }
+
+
+    .slick-arrow {
+      padding: 0 20px 0 20px;
+      &:before {
+        font-size: 5rem;
+      }
+    }
+
+    .slick-prev {
+      left: 15px;
+
+    }
+
+    .slick-next {
+      right: 55px;
+    }
+  }
+
+  .happy-birthday-section {
+    .section-txt-wrapper {
+      width: 35%;
+    }
+  }
+
+  .bouquets-section {
+    .bouquets-list {
+      .bouquet-title {
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+  .create-bouquet-section {
+    .create-bouquet-section-btn {
+      font-size: 1.5rem;
+    }
+  }
+
+  .how-we-work-section {
+    .how-we-work-steps {
+      .step-content {
+        width: 55%;
+      }
+    }
+  }
+
+  .reviews-section {
+
+    .review-text {
+      width: 20%;
+    }
+
+    .slick-prev {
+      left: 9.5%;
+    }
+
+    .slick-next {
+      right: 14%;
+    }
+  }
+
+  .contacts-section {
+    .numbers-list, .accounts-list {
+      font-size: 1.875rem;
+    }
+  }
+
+  .footer-heading {
+    font-size: 3.5rem;
+  }
+
+  .shares-section {
+    .carbonite-responsive-dashboard {
+      text-align: left;
+    }
+
+    .share-description-section {
+      width: 50%;
+    }
+  }
+}

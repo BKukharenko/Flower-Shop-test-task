@@ -1,0 +1,145 @@
+body {
+  font-size: 1rem;
+  font-family: $main_font;
+  overflow-x: hidden;
+}
+
+.heading {
+  font-family: "Magnolia Script", "sans-serif";
+  color: $primary_color;
+}
+
+.slick-slider {
+  .slick-arrow {
+    z-index: 2;
+
+    &:before {
+      font-size: 2.5rem;
+      color: $slider_arrows_color;
+    }
+  }
+
+  .slick-prev {
+    left: 15px;
+
+    &:before {
+      font-family: "FontAwesome";
+      content: "\f053";
+    }
+  }
+
+  .slick-next {
+    right: 25px;
+
+    &:before {
+      font-family: "FontAwesome";
+      content: "\f054";
+    }
+  }
+
+  .slick-dots {
+
+    button {
+      &:before {
+        font-size: 1.5rem;
+        color: $slider-active-dot-color;
+
+        &:hover {
+          color: $slider-active-dot-color;
+        }
+      }
+
+    }
+
+    .slick-active {
+      button {
+        &:before {
+          color: $slider-active-dot-color;
+        }
+      }
+    }
+  }
+}
+
+.site-btn {
+  background-color: $btn_bg_color;
+  color: #ffffff;
+  font-family: "Blogger Sans Medium", "sans-serif";
+  font-size: 1.5rem;
+  border-radius: 45px;
+
+  &:hover {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: $primary_color;
+    transition: 0.5s;
+  }
+}
+
+.main-number {
+  font-family: "Blogger Sans Bold", "sans-serif";
+  color: $primary_color;
+  font-size: 1.25rem;
+
+  &:before {
+    content: url("../img/footer-phone-icon.png");
+  }
+
+  &:hover {
+    color: $primary_color;
+    text-decoration: none;
+  }
+}
+
+.bouquet-wrapper {
+  background-color: #ffffff;
+  border-radius: 25px;
+  width: 70%;
+  box-shadow: 0.063rem 0.125rem 0.375rem rgba(2, 37, 50, 0.1);
+}
+
+img {
+  border-radius: 25px;
+}
+
+.bouquet-title {
+  font-size: 1.4rem;
+  color: $bouquet_label_color;
+}
+
+.bouquet-characteristics {
+  color: $price_bg_color;
+  font-size: 1.25rem;
+}
+
+.flowers-quantity {
+
+  &:before {
+    content: url("../img/flower-img.png");
+  }
+}
+
+.bouquet-height {
+  &:before {
+    font-size: 1.1rem;
+    margin-left: 5px;
+    color: #9d9d9d;
+    font-family: "FontAwesome";
+    content: "\f07d ";
+  }
+}
+
+.bouquet-price {
+  font-family: "Blogger Sans Medium", "sans-serif";
+  border-radius: 5px;
+  padding: 5px 5px;
+  color: #ffffff;
+  position: absolute;
+  bottom: 10%;
+  right: 4%;
+  background-color: $price_bg_color;
+}
+
+.img-wrapper {
+  position: relative;
+}
